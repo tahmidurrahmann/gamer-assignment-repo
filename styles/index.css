@@ -166,8 +166,58 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
+.playing-game-container{
+    max-width: 1440px;
+    margin: 120px auto;
+}
+.playing-game-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.playing-game-img{
+        width: 65%;
+}
+.playing-game-img .first-img{
+    width: 70%;
+}
+.playing-game-img .third-img{
+    width: 35%;
+    border-radius: 8px;
+    border: 10px solid white;
+    position: relative;
+    left: 520px;
+    bottom: 235px;
+}
 
 
+.playing-game-description{
+    width: 35%;
+    min-height: 600px;
+}
+.playing-game-description h3,p{
+    text-align:left;
+}
+
+
+.playing-game-description .third-heading{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+.playing-game-description .third-paragraph{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 400;
+}
+.playing-game-description .funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+}
 
 
 
@@ -192,7 +242,7 @@ body{
             width: 100%;
             justify-content: space-around;
         }
-        .banner-parent{
+        .banner-parent, .playing-game-parent{
             flex-direction: column-reverse;
         }
         .banner-img-container img{
@@ -223,11 +273,45 @@ body{
         #second-img{
             width: 75%;
         }
+        .playing-game-img .third-img{
+            width: 50%;
+            left: 210px;
+            bottom: 95px;
+            position: relative;
+        }
+
+
+        .playing-game-description{
+            width: 90%;
+            margin: 0px auto;
+            min-height: 300px;
+        }
+        .playing-game-description h3,p{
+            text-align:center;
+        }
+        .playing-game-description .third-heading{
+            font-size: 30px;
+        } 
+        .playing-game-description .funny-videos{
+            font-size: 30px;
+        }
+        .playing-game-description .third-paragraph{
+            font-size: 16px;
+        }
+        .playing-game-img {
+            width: 80%;
+        }
+        .playing-game-img .first-img {
+            width: 90%;
+        }
+        .playing-game-container{
+            margin-top: 0px;
+        }
 }
 
 
 
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:992px) {
     .gamer-container, .menu-container{
         flex-direction: column;
     }
@@ -240,7 +324,7 @@ body{
         justify-content: space-around;
     }
     .online-img-container{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .online-child-container{
         margin: auto;
@@ -268,5 +352,29 @@ body{
         width: 96%;
         margin: 25px auto 0px;
         background-size: cover;
+    }
+    .playing-game-description{
+        min-height: 400px;
+    }
+    .playing-game-description .third-heading{
+        font-size: 30px;
+    } 
+    .playing-game-description .funny-videos{
+        font-size: 30px;
+    }
+    .playing-game-description .third-paragraph{
+        font-size: 16px;
+    }
+    .playing-game-img {
+        width: 80%;
+    }
+    .playing-game-img .third-img {
+        width: 35%;
+    }
+    .playing-game-img .third-img{
+        width: 35%;
+        left: 250px;
+        bottom:115px;
+        position: relative;
     }
 }
