@@ -328,7 +328,7 @@ body{
     -webkit-text-fill-color: transparent;
     font-size: 25px;
 }
-.online-child-container{
+.diva{
     position: relative;
 }
 .watch-now{
@@ -341,7 +341,7 @@ body{
 }
 .content{
     width: 95%;
-    height: 88%;
+    height: 100%;
     border-radius: 20px;
     top: 0;
     left: 0;
@@ -500,6 +500,9 @@ body{
         .another-anchor-containerr{
             padding-bottom: 40px;
         }
+        .content{
+            width: 80%;
+        }
 }
 
 
@@ -601,5 +604,8 @@ body{
         justify-content: space-between;
         gap: 30px;
         align-items:center;
+    }
+    .content{
+        width: 100%;
     }
 }
