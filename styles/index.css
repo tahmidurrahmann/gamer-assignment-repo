@@ -156,6 +156,9 @@ body{
 .online-games-container .first-paragraph,h3{
     text-align: center;
 }
+.alternative-banner-description h3{
+    text-align: left;
+}
 .online-games-container .second-paragraph{
     color: #534C64;
     font-size: 18px;
@@ -183,8 +186,6 @@ body{
     left: 56%;
     bottom: 235px;
 }
-
-
 .playing-game-description{
     width: 35%;
     min-height: 600px;
@@ -407,8 +408,20 @@ font-weight: 700;
             margin: 0px auto;
             min-height: 250px;
         }
-        .playing-game-description h3,p{
-            text-align:center;
+        .online-games-container h3{
+            font-size: 20px;
+        }
+        .online-games-container .funny-videos{
+            font-size: 20px;
+        }
+        .online-games-container .first-paragraph{
+            font-size: 13px;
+        }
+        .playing-game-description h3, p {
+            text-align: center;
+        }
+        .alternative-banner-description p{
+            text-align: left;
         }
         .playing-game-description .third-heading{
             font-size: 30px;
